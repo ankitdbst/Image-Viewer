@@ -1,0 +1,39 @@
+Introduction
+
+The application displays thumbnails of the images on the top bar and on clicking any thumbnail
+displays its full size image in the space below.
+
+Technical Specification
+
+The project has been built using Eclipse Galileo IDE. The source directory for the application as well
+as the project folder of Eclipse has been included in the main archive. Also the jar for the application is
+also included and has the images archived within it.
+
+Code written
+
+I have started with some sample code to display an image in the JlLabel using the icon property of the
+JLabel. ThumbnailAction class displays the full size image when the JButton in the JToolbar is
+pressed.
+Glue components are used to center the buttons in the middle of the JToolbar. The code is commented
+at proper places to describe the purpose of the block of code.
+
+How to compile and run the application
+
+cd to the source directory in which the components folder is present. Run the following command to
+compile
+javac components/ImageViewerApp.java
+Now to run the file type
+java components.ImageViewerApp
+
+Alternatively the jar file is provided to view the application directly.
+
+Use Executable
+
+The executable can be used directly if Sun jdk or Open jdk environement is installed within the
+operating system.
+Or alternatively run java -jar ImageView.jar in the console.
+
+Assumptions made
+
+It is assumed that the image paths that are provided to the application in the source would be correct
+failing which an error arises displayed in the console.
